@@ -1,0 +1,213 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width:100%;
+}
+
+.top {
+  background-image: url(mein01.jpeg);
+  background-size: cover;
+  height: 500px;
+}
+
+.top-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 180px;
+  text-align: center;
+  color: white;
+}
+
+.top-wrapper h1 {
+  font-size: 40px;
+  opacity: 0.8;
+  font-family: Hiragino Kaku Gothic ProN;
+}
+
+.top-wrapper p {
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.problem {
+  background-color: white;
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.problem-wrapper {
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.problem-wrapper h2 {
+  text-align: center;
+  color: #ff7f50;
+  font-size: 30px;
+}
+
+.probrem-txt {
+  margin: 40px auto;
+  padding: 40px,80px,20px,80px;
+}
+
+.probrem-txt p {
+  float: left;
+  width: 33%;
+}
+
+.resolution {
+  background-color: #ff4500;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.resolution-wrapper {
+  padding-top: 30px;
+}
+
+.resolution p {
+  margin-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.characteristic {
+  margin: 0 auto;
+  height: 800px;
+}
+
+.characteristic-wrapper {
+  margin-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.characteristic-wrapper h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 40px;
+  color: #808080;
+}
+
+.contents01 {
+  padding-top: 40px;
+  width: 100%;
+}
+
+.contents01-left {
+  float: left;
+  width: 50%;
+}
+
+.contents01-left img {
+  width: 80%;
+}
+
+.contents01-right {
+  float: right;
+  width: 50%;
+}
+
+.contents01-txt {
+  width: 80%;
+}
+
+.contents01-txt h3 {
+  border-bottom: 2px solid #ff4500;
+}
+
+.contents01-txt p {
+  padding-top: 20px;
+}
+
+.contents02 {
+  padding-top: 40px;
+  width: 100%;
+}
+
+.contents02-right {
+  float: right;
+  width: 50%;
+}
+
+.contents02-right img {
+  width: 80%;
+}
+
+.contents02-left {
+  float: right;
+  width: 50%;
+}
+
+.contents02-txt {
+  width: 80%;
+}
+
+.contents02-txt h3 {
+  border-bottom: 2px solid #ff4500;
+}
+
+.contents02-txt p {
+  padding-top: 20px;
+}
+
+.clear {
+  clear: left;
+}
+
+.flow {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flow-wrapper {
+  padding: 20px 80px 80px 80px;
+  text-align: center;
+}
+
+.flow-wrapper h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 40px;
+  color: #808080;
+}
+
+.flow-wrapper p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.flow-wrapper a {
+  background-color: #55acee;
+  text-align: center;
+  padding: 10px 30px;
+  color: white;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #ff7f50;
+}
